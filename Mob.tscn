@@ -43,7 +43,6 @@ __meta__ = {
 scale = Vector2( 0.75, 0.75 )
 frames = SubResource( 1 )
 animation = "walk"
-frame = 1
 speed_scale = 3.0
 playing = true
 
