@@ -4,7 +4,7 @@
 [ext_resource path="res://dodge_assets/fonts/Xolonium-Regular.ttf" type="DynamicFontData" id=2]
 
 [sub_resource type="DynamicFont" id=1]
-size = 64
+size = 48
 font_data = ExtResource( 2 )
 
 [node name="HUD" type="CanvasLayer"]
@@ -24,10 +24,10 @@ __meta__ = {
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-margin_top = -79.5
-margin_bottom = 79.5
+margin_top = -199.0
+margin_bottom = -80.0
 custom_fonts/font = SubResource( 1 )
-text = "Dodge the Creeps!"
+text = "Survive Girlfriend Attacks!"
 align = 1
 autowrap = true
 __meta__ = {
