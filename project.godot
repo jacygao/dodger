@@ -15,7 +15,8 @@ _global_script_class_icons={
 
 [application]
 
-config/name="dodge creepers"
+config/name="Girfriend Attacks"
+config/description="How long can you survive girlfriend attacks?"
 run/main_scene="res://Main.tscn"
 config/icon="res://icon.png"
 
@@ -23,9 +24,16 @@ config/icon="res://icon.png"
 
 window/size/width=480
 window/size/height=720
+window/handheld/orientation="portrait"
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
 [rendering]
 
+quality/driver/driver_name="GLES2"
+vram_compression/import_etc=true
 environment/default_environment="res://default_env.tres"
